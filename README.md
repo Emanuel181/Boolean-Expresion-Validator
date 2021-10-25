@@ -6,7 +6,9 @@ Github
 [ CUM SE RULEAZA CODUL ]
 
 Programul se va descarca inainte apasand pe butonul verde "Code" si selectand "Downlad as ZIP".
+
 Programul se poate rula in PyCharm sau VsCode sau in orice editor de text daca extensia pentru Python este instalata.
+
 IN MOMENTUL IN CARE SE VREA RULAREA PROGRAMULUI, TREBUIE CA TOATE SPATIILE ALBE DINTRE CARACTERE, SIMBOLURI ETC SA FIE ELIMINATE:
 
 [ EXEMPLE ]
