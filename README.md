@@ -25,9 +25,9 @@ Programul determina daca o propozitie este sau nu bine definita.
 
 Accesul la codul sursa se poate face direct din repozitoriu dand clik pe fisierul "main.py" sau dupa descarcarea repozitorului.
 
-Programul a fost implementat dupa o schema ce presupune ca la fiecare componenta a unei propozitii bine definite am notat elementele ce o pot succede. Daca gaseam alte elemente, atunci propozitia nu este valida. Aceasta schema se afla in repozitoriu si daca exista erori sau necesita a fi imbunatatita as fi bucuros de un feedback pentru a perfectiona programul.
+Programul a fost implementat dupa o schema ce presupune ca la fiecare componenta a unei propozitii bine definite am notat elementele ce o pot succede. Daca gaseam alte elemente, atunci propozitia nu este valida. Aceasta schema se afla in repozitoriu cu numele de "Reguli.docx" si daca exista erori sau necesita a fi imbunatatita as fi bucuros de un feedback pentru a perfectiona programul.
 
-Am adaugat imagini cu ce raspuns da programul la exercitiile de la tema.
+Am adaugat imagini cu ce raspuns da programul la exercitiile de la tema ce se regasesc cu numele de "exemplu 1", "exemplu 2", "exemplu 3", "exemplu 4", "exemplu 5". "Exemplu 1", corespunde primului exercitiu din tema, "Exemplu 2" corespunde celui de-al doilea si tot asa.
 
 
 
