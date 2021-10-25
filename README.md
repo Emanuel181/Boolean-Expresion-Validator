@@ -12,9 +12,11 @@ IN MOMENTUL IN CARE SE VREA RULAREA PROGRAMULUI, TREBUIE CA TOATE SPATIILE ALBE 
 
 
 Nu se va rula asa: ((P ⇒ (Q ∧ (S ⇒ T))))
+
 Ci se va rula asa: ((P⇒(Q∧(S⇒T))))
 
 Nu se va rula asa: (P ∧ ((¬Q) ∧ (¬(¬(Q ⇔ (¬R))))))
+
 Ci asa: (P∧((¬Q)∧(¬(¬(Q⇔(¬R))))))
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
