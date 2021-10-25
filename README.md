@@ -1,12 +1,15 @@
 # Tema_LC.py
 [ REPOZITORIU ]
+
 Github
 
 [ CUM SE RULEAZA CODUL ]
+
 Programul se poate rula in PyCharm sau VsCode sau in orice editor de text daca extensia pentru Python este instalata.
 IN MOMENTUL IN CARE SE VREA RULAREA PROGRAMULUI, TREBUIE CA TOATE SPATIILE ALBE DINTRE CARACTERE, SIMBOLURI ETC SA FIE ELIMINATE:
 
 [ EXEMPLE ]
+
 
 Nu se va rula asa: ((P ⇒ (Q ∧ (S ⇒ T))))
 Ci se va rula asa: ((P⇒(Q∧(S⇒T))))
