@@ -28,4 +28,5 @@ Programul a fost implementat dupa o schema ce presupune ca la fiecare componenta
 Am adaugat imagini cu ce raspuns da programul la exercitiile de la tema.
 
 
+
 [ Rusu Emanuel ]
