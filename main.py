@@ -1,9 +1,13 @@
+print("Introduceti expresia ce va fi verificata: ", end = '')
+
 prop, cnt_c, cnt_p, poz, conectori, ok = input(), 0, 0, 0, ['∧', '∨', '⇒', '¬', '⇔'], True
 
 def RemoveSpaces(exp):
     return "".join(exp.split())
 
 prop = RemoveSpaces(prop)
+
+print()
 
 
 for i in prop:
