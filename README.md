@@ -31,3 +31,5 @@ Eventuale imbunatatiri: Interfata grafica, tabele de valori de adevar, hostarea 
 [ Rusu Emanuel ]
 
 Grupa 1, subgrupa 2
+
+Facultatea de Matematica - Informatica, anul I
