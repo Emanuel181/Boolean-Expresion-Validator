@@ -38,3 +38,6 @@ Eventuale imbunatatiri: Interfata grafica, tabele de valori de adevar, hostarea 
 Grupa 1, subgrupa 2
 
 Facultatea de Matematica - Informatica, anul I
+
+Prof: Adrian Craciun
+Prof. seminar: Alexandra Fortis
