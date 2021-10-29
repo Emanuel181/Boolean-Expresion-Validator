@@ -2,10 +2,10 @@ print("Introduceti expresia ce va fi verificata: ", end='')
 
 prop, cnt_c, cnt_p, poz, conectori = input(), 0, 0, 0, ['∧', '∨', '⇒', '¬', '⇔']
 
-def RemoveSpaces(exp):
+def  remove_spaces(exp):
     return "".join(exp.split())
 
-prop = RemoveSpaces(prop)
+prop = remove_spaces(prop)
 
 print()
 
@@ -14,7 +14,7 @@ for i in prop:
         print("Conectorii sau paranteza inchisa nu poate sa apara pe prima pozitie. Nu, expresia nu este o propozitie bine definita.")
         exit()
 
-    if i in conectori and (i != '¬' and poz <= 1 ):
+    if i in conectori and (i != '¬' and poz <= 1):
         print("Un conector binar apare cel mai devreme pe pozitia 3. Nu, expresia nu este o propozitie bine definita.")
         exit()
 
