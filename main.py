@@ -84,11 +84,11 @@ if 2*cnt_c - cnt_p == 0:
                 break
 
 else:
-    if (cnt_p - 2 * cnt_c) % 2 == 0 and cnt_p - 2*cnt_c > 0:
+    if (cnt_p - 2 * cnt_c) % 2 == 0 and cnt_p - 2*cnt_c > 0 and cnt_c > 0:
         print("Se pot elimina", cnt_p - 2*cnt_c, "paranteze din captele expresiei si aceasta isi pastreaza sensul. Da, expresia este o propozitie bine definita.")
         exit()
     else:
-        print("Numarul de paranteze nu corespunde cu numarul de conectori, acesta trebuie sa fie cel putin '2*numarul de conectori'. Nu, expresia nu este o propozitie bine definita.")
+        print("Numarul de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
         print("Sunt", cnt_c, "conectori si", cnt_p, "paranteze.")
         exit()
 
