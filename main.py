@@ -97,11 +97,6 @@ if caz == "stricta":
             print("Numarul de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
             print("Sunt", cnt_c, "conectori si", cnt_p, "paranteze.")
             exit()
-    elif cnt_p - 2*cnt_c < 2:
-        print()
-        print("Numarul de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
-        print("Sunt", cnt_c, "conectori si", cnt_p, "paranteze.")
-        exit()
 
     elif i == len(prop) - 1:
             print()
