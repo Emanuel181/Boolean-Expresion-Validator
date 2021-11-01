@@ -35,7 +35,6 @@ if caz == "stricta":
                 cnt_p += 1
         poz += 1
 
-
     for i in range(len(prop)):
         if prop[i] == '(':
             print("POZITIA[", i, ']:', prop[i])
@@ -87,16 +86,15 @@ if caz == "stricta":
             print("Pe pozitia", i, "se afla o paranteza inchisa, deci acum s-a inchis o expresie complexa")
             continue
 
-    if cnt_p - 2*cnt_c >= 2:
-        if (cnt_p - 2 * cnt_c) % 2 == 0 and cnt_c > 0:
-            print()
-            print("Se pot elimina", cnt_p - 2*cnt_c, "paranteze din captele expresiei si aceasta isi pastreaza sensul. Da, expresia este o propozitie bine definita.")
-            exit()
+    if cnt_p - 2*cnt_c >= 1:
+        print()
+        print("Numarul de perechi  de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
+        if cnt_p % 2 == 0:
+            rez = cnt_p // 2
         else:
-            print()
-            print("Numarul de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
-            print("Sunt", cnt_c, "conectori si", cnt_p, "paranteze.")
-            exit()
+            rez = cnt_p / 2
+        print("Sunt", cnt_c, "conectori si", rez, "perechi de paranteze.")
+        exit()
 
     elif i == len(prop) - 1:
             print()
