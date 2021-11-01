@@ -1,6 +1,6 @@
 # Tema1_LC.py
 
-Ultima actualizare: 30.10.2021
+Ultima actualizare: 01.11.2021
 
 
 [ REPOZITORIU ]
