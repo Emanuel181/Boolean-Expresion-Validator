@@ -1,4 +1,3 @@
-
 print("Sintaxa ce se va analiza este: ", end='')
 caz = input()
 
@@ -86,7 +85,7 @@ if caz == "stricta":
             print("Pe pozitia", i, "se afla o paranteza inchisa, deci acum s-a inchis o expresie complexa")
             continue
 
-    if cnt_p - 2*cnt_c >= 1:
+    if cnt_p - 2*cnt_c != 0:
         print()
         print("Numarul de perechi  de paranteze nu corespunde cu numarul de conectori. Nu, expresia nu este o propozitie bine definita.")
         if cnt_p % 2 == 0:
@@ -99,6 +98,7 @@ if caz == "stricta":
     elif i == len(prop) - 1:
             print()
             print("Da, expresia este o propozitie bine definita.")
+            print(cnt_p - 2*cnt_c)
             exit()
 
     else:
