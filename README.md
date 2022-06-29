@@ -13,7 +13,7 @@
 The program will be downloaded first by clicking on the green "Code" button and selecting "Downlad as ZIP" or you can copy the source code directly from the **main.py** file to an IDE (such as **PyCharm**) or text editor (such as **Visual Studio Code**; in this case, you will need to install extensions that allow Python code to run).
 
 **```[2]```** 
-Input requirements: Enter things accepted by propositional logic.
+Input requirements: Enter things accepted by propositional logic syntax.
 
 #### [ EXAMPLES ]
 
